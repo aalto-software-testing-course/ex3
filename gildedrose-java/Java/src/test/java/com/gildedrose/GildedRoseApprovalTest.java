@@ -8,8 +8,8 @@ public class GildedRoseApprovalTest extends TestCase {
 
 	public void testSomething() throws Exception {
 		String[] items = { "Any" };
-		Integer[] sellins = { 0, 10, 42, 100 };
-		Integer[] qualities = { 0, 50, 55 };
+		Integer[] sellins = { 0};
+		Integer[] qualities = { 0 };
 		CombinationApprovals.verifyAllCombinations(this::checkItem, items, sellins, qualities);
 	}
 
